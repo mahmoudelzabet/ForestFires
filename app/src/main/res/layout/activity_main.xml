@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/m5">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+
+        <Button
+            android:id="@+id/spot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spots"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+
+            />
+
+        <Button
+            android:id="@+id/fire_track"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fire Track"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            />
+
+        <Button
+            android:id="@+id/animals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animals"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            />
+
+        <Button
+            android:id="@+id/green_house"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Green Houses"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            />
+    </LinearLayout>
+</RelativeLayout>
